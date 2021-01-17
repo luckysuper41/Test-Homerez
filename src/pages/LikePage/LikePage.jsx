@@ -1,16 +1,20 @@
 import React from 'react';
 import './LikePage.css';
+// import component
+import HeaderForm from '../../components/HeaderForm/HeaderForm';
+import TitleContent from '../../components/TitleContent/TitleContent';
+// redux
 import { useDispatch, useSelector } from 'react-redux';
 import { removeData } from '../../app/dataSlice';
 
-import HeaderForm from '../../components/HeaderForm/HeaderForm';
-import TitleContent from '../../components/TitleContent/TitleContent';
-
 export default function LikePage() {
 
+     // useDispatch -> push action
      const dispatch = useDispatch();
+     // useSelector -> get data from store
      const data = useSelector(state => state.data);
 
+     // handleRemoveData -> Unlike
      const handleRemoveData = (item) => {
           const removeDataId = item.id;
           const action = removeData(removeDataId);
@@ -18,8 +22,8 @@ export default function LikePage() {
      }
 
      return (
-          <div className="container-likepage">
-               <HeaderForm content="BACK" className="back" link="/homerez/"/>
+          <div className="container-liked">
+               <HeaderForm content="BACK" className="back" link="/home"/>
                <TitleContent title="Liked" />
 
                <div className="liked-content">
