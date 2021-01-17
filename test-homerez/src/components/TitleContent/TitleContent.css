@@ -1,0 +1,22 @@
+.title-result{
+     position: relative;
+     display: flex;
+     flex-direction: column;
+
+     margin-top: 24px;
+     margin-bottom: 16px;
+
+     width: 400px;
+     box-sizing: border-box;
+}
+
+.title-result span.title-content{
+     color: rgb(90, 90, 90);
+     font-size: 17px;
+}
+
+.title-result span.underline{
+     background: rgb(90, 90, 90);
+     width: 100%;
+     height: 2px;
+}

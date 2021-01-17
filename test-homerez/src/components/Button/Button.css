@@ -1,0 +1,55 @@
+button.button-search{
+     width: 400px;
+     height: 32px;
+     box-sizing: border-box;
+
+     background: none;
+     border: 1px solid rgb(40, 115, 201);
+     border-radius: 2px;
+
+     color: rgb(40, 115, 201);
+     font-weight: 600;
+     font-size: 14px;
+
+     cursor: pointer;
+     outline: none;
+     transition: all 0.5s;
+}
+
+button.button-search:hover{
+     background: rgb(40, 115, 201);
+
+     color: rgb(255, 255, 255);
+}
+
+button.button-search:active{
+     transform: scale(0.97);
+}
+
+button.button-like{
+     width: 400px;
+     height: 32px;
+     box-sizing: border-box;
+
+     background: none;
+     border: 1px solid #CC00AA;
+     border-radius: 2px;
+
+     color: #CC00AA;
+     font-weight: 600;
+     font-size: 14px;
+
+     cursor: pointer;
+     outline: none;
+     transition: all 0.5s;
+}
+
+button.button-like:hover{
+     background: #CC00AA;
+
+     color: rgb(255, 255, 255);
+}
+
+button.button-like:active{
+     transform: scale(0.97);
+}

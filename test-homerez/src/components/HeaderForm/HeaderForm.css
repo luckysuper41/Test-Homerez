@@ -1,0 +1,44 @@
+.form-header{
+     position: relative;
+     display: flex;
+     flex-direction: row;
+     justify-content: space-between;
+     align-items: center;
+
+     width: 400px;
+}
+
+.form-header h2{
+     font-size: 32px;
+     font-weight: 600;
+}
+
+.form-header a.liked{
+     color:#CC00AA;
+     font-size: 14px;
+
+     transition: all 0.5s;
+}
+
+.form-header a.liked:hover{
+     color:#ff06d5;
+}
+
+.form-header a.liked:active{
+     color:#9b0482;
+}
+
+.form-header a.back{
+     color: rgb(40, 115, 201);
+     font-size: 14px;
+
+     transition: all 0.5s;
+}
+
+.form-header a.back:hover{
+     color: rgb(53, 146, 252);
+}
+
+.form-header a.back:active{
+     color: rgb(35, 96, 167);
+}

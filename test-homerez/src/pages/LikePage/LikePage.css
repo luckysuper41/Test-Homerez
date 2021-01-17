@@ -1,0 +1,65 @@
+.container-likepage{
+     position: relative;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+
+     width: 448px;
+     box-sizing: border-box;
+     background: #fff;
+
+     margin: 0 auto;
+     margin-top: 50px;
+     padding: 32px 24px;
+     border-radius: 5px;
+}
+
+.liked-content{
+     position: relative;
+     display: flex;
+     flex-direction: column;
+
+     box-sizing: border-box;
+     width: 400px;
+}
+
+.liked-content ul.liked-list{
+     list-style: none;
+}
+
+ul.liked-list li.liked-item{
+     display: flex;
+     flex-direction: row;
+     justify-content: space-between;
+     align-items: center;
+
+     margin-bottom: 5px;
+}
+
+li.liked-item div.item-content{
+     font-weight: bold;
+     font-size: 18px;
+}
+
+li.liked-item button.item-button{
+     font-weight: bold;
+     font-size: 14px;
+     
+     border: 1px solid red;
+     border-radius: 3px;
+     padding: 2px 5px;
+
+     background: none;
+     color: red;
+
+     cursor: pointer;
+     outline: none;
+
+     transition: all 0.3s;
+}
+
+li.liked-item button.item-button:hover{
+     color: #fff;
+     background: red;
+}
